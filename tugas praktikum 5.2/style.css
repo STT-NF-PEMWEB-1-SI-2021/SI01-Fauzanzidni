@@ -1,0 +1,44 @@
+.top {
+    width: 95%;
+    height: 10%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background: blue;
+}
+
+.boxleft1 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    background: yellow;
+}
+
+.boxleft2 {
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    background: yellow;
+}
+
+.slide1 {
+    width: 1150px;
+    height: 250px;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    background: rgb(51, 255, 0);
+}
+
+.slide2 {
+    width: 1150px;
+    height: 240px;
+    position: absolute;
+    top: 55%;
+    right: 3%;
+    background: rgb(240, 90, 21);
+}
