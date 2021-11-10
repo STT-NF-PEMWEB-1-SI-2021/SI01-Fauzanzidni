@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #1e151f;
+    background-image: linear-gradient(315deg, #b93fc7, #0d324d 74%);
+    height: 100vh;
+}
+
+span {
+    color: white;
+}
+
+P {
+    color: white;
+}
+
+table {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.rigth_side {
+    width: 210px;
+    height: 180px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    background: grey;
+}
