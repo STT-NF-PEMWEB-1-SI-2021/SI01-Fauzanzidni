@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+    }
+    .container .left_side {
+    position: relative;
+    padding: 40px;
+}
+.container .right_side {
+    position: relative;
+    padding: 40px;
+}
+.btn-danger {
+    background: green;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.send   {
+    color: green;
+}
+    </style>
+    <div class="container">
+        <div class="left_side">
+                <legend></legend>
+                <textarea name="" id="" cols="20" rows="10"></textarea>
+                <br>
+                <a href=""><button>Update picture</button></a>
+        </div>
+
+        <div class="rigth_side">
+            <div>
+                <label for="">Title here :</label>
+                <input type="text" nama="Titlehere" size="20">
+            </div>
+            <div>
+                <legend>Discription :</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="">Account Number  :</label>
+                <input type="text" nama="Titlehere" size="20">
+            </div>
+            <p>Bank :
+                <select name="" id="">
+                    <option value="">BCA</option>
+                    <option value="">MANDIRI</option>
+                    <option value="">BNI</option>
+                </select>
+                
+            </p>
+            
+            <div>
+                <label for="">Account Holder  :</label>
+                <input type="text" nama="Titlehere" size="20">
+            </div>
+            <p>Transaction
+                <select name="" id="">
+                    <option >1</option>>
+                    <option >2</option>
+                    <option >3</option>
+                </select>
+            </p>
+            <h5>* if transsaction is for 3 person,choose 3 from the drop-down list</h5>
+            <div class="send">
+            <input type="checkbox" id="Send To Mobile Phone">
+            <label for="Send To Mobile Phone">Send To Mobile Phone</label>
+            <br>
+            <input type="checkbox" id="Send To EMAIL">
+            <label for="Send To EMAIL">Send To EMAIL</label>
+            </div>
+            <div>
+                <label for="">Send To Mobile Phone  :</label>
+                <input type="text" nama="" size="20">
+            
+            <br>
+                <label for="">Send To EMAIL  :</label>
+                <input type="text" nama="" size="20">
+            </div>
+            <br>
+            <button class="btn btn-danger my-Nabr-btn">
+                Generate Nabr Link
+            </button>
+            
+        </div>    
+    </div>
+    
+</body>
+</html>
