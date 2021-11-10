@@ -1,0 +1,35 @@
+.left_side {
+    width: 150px;
+    height: 700px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    background-color: rgb(215, 250, 17);
+}
+
+.center {
+    width: 150px;
+    height: 700px;
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    background: rgb(243, 65, 11);
+}
+
+.center2 {
+    width: 150px;
+    height: 700px;
+    position: absolute;
+    top: 5%;
+    right: 28%;
+    background: rgb(136, 255, 0);
+}
+
+.rigth_side {
+    width: 150px;
+    height: 700px;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    background: rgb(101, 172, 212);
+}
