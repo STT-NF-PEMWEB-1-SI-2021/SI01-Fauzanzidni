@@ -1,0 +1,25 @@
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.container .right_side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.category {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+
+fieldset {
+    float: right;
+}
+
+body {
+    background-color: aqua;
+}
