@@ -1,0 +1,77 @@
+h1 {
+    color: white;
+}
+
+.row {
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #1e151f;
+    background-image: linear-gradient(315deg, #b93fc7, #0d324d 74%);
+    height: 100vh;
+
+}
+
+.badge-notify {
+    background: red;
+    position: relative;
+    top: -20px;
+    right: 40px;
+    font-family: sans-serif;
+}
+
+#addNewProduct {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+    margin-top: 50px
+}
+
+.btn {
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.btn-info {
+    background: #0d324d;
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.btn-danger {
+    background: green;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+table {
+    color: white;
+}
+
+.rigth_side {
+    float: right;
+}
+
+.quantity {
+    float: right;
+}
+
+input {
+    background: rgb(117, 11, 238);
+    color: rgb(20, 20, 27);
+}
+
+button {
+    background: blue;
+    color: rgb(20, 20, 27);
+}
+
+a {
+    bottom: 30px;
+}
