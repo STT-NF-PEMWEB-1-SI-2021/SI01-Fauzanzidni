@@ -1,0 +1,53 @@
+.boxleft1 {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background: burlywood;
+}
+
+.boxleft2 {
+    width: 300px;
+    height: 460px;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    background: rgb(154, 245, 135);
+}
+
+.boxfooter {
+    width: 1440px;
+    height: 60px;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    background: rgb(200, 82, 247);
+}
+
+.boxhead {
+    width: 1100px;
+    height: 60px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background: rgb(50, 181, 233);
+}
+
+.boxright {
+    width: 300px;
+    height: 460px;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    background: rgb(237, 248, 173);
+}
+
+.boxcenter {
+    width: 770px;
+    height: 460px;
+    position: absolute;
+    top: 15%;
+    right: 24%;
+    background: rgb(121, 121, 116);
+}
