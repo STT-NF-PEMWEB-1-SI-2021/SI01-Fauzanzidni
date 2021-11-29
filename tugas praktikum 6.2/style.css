@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+nav {
+    background: rgb(247, 5, 45);
+    width: 35vh;
+    height: 100vh;
+    font-size: 25px;
+}
+
+header,
+footer {
+    background: khaki;
+    height: 20vh;
+    width: 168vh;
+    font-size: 25px;
+}
+
+.main1 {
+    display: flex;
+}
+
+aside {
+    background: rgb(0, 238, 255);
+    width: 43vh;
+    font-size: 25px;
+}
+
+article {
+    height: 60vh;
+    width: 125vh;
+    font-size: 25px;
+}
+
+header,
+footer,
+article,
+aside,
+nav {
+    padding: 1em;
+}
