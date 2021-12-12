@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JavaScript</title>
+</head>
+<body>
+    <input type="number" placeholder="Masukan Nilai jari-jari lingkaran (cm)" id="jari">
+    <button onclick="lingkaran()">hitung keliling lingkaran</button>
+    hasil : <span id="hasil"> </span>
+    <br>
+    <br>
+    <input type="number" placeholder="Masukan Nilai jari-jari lingkaran (cm)" id="luas">
+    <button onclick="lingkaran()">hitung luas lingkaran</button>
+    hasil : <span id="hasilluas"> </span>
+    <script>
+        function lingkaran() {
+            document.getElementById("hasil").innerHTML=3.14*2*parseFloat(jari.value);
+        }
+        function lingkaran() {
+            document.getElementById("hasilluas").innerHTML=3.14*parseFloat(Math.pow(luas.value,2))
+        }
+
+    </script>
+</body>
+</html>
