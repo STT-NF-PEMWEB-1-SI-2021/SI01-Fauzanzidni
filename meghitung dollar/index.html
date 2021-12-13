@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hitung(){
+            let dollar = document.getElementById("dollar").value;
+            const idr = 14.650;
+            let hasil = dollar * idr;
+            console.log( "hasil"+ hasil);
+            let area_hasil = document.getElementById("hasil");
+            area_hasil.innerHTML="Rp" + hasil;
+        }
+    </script>
+</head>
+<body>
+    <h3> menghitung rupiah</h3>
+    masukan dollar ($) : <input type="number" size="15" id="dollar"><br>
+    <button onclick="hitung()">itung</button><br>
+    Hasil : <span id="hasil"></span>
+</body>
+</html>
