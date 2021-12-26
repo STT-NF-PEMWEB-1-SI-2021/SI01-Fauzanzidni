@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color:aliceblue;
+            min-height: 90hv;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            color: black;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            background-color: #ecf0f1;
+            padding: 1em;
+            max-width: 568px;
+            border-radius: 1em;
+        }
+        input,select,button{
+            margin: 1em;
+            padding: 1em;
+            border-radius: 1em;
+            outline: none;
+            border: 1em solid#bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <input type="number" class="input">
+    
+    <select class="kurs">
+        <option value="usd">USD - 9.915</option>
+        <option value="sgd">SGD - 13.472</option>
+        <option value="rm">RM - 874</option>
+        <option value="jpy">JPY - 120</option>
+        <option value="uer">UER- 15.888</option>
+        <option value="sar">SAR - 3.592</option>
+    </select>
+    
+    <button class="hitung">Hitung</button>
+    
+    <p class="hasil">Hasil: </p>
+    
+    <script>
+        const input = document.querySelector(".input");
+        const kursSelect = document.querySelector(".kurs");
+        const hitungBtn =document.querySelector(".hitung");
+        const hasil = document.querySelector(".hasil");
+        
+        hitungBtn.addEventListener("click", function() {
+            console.log("button sudah di klik");
+            // console.log(kursSelect.value);
+            // console.log(hasil.innerHTML);
+            // jika user -- usd
+            if (kursSelect.value == "usd") {
+                hasil.innerHTML = " Hasil: "+ input.value * 9915;
+            }
+            else if (kursSelect.value == "sgd") {
+                hasil.innerHTML = " Hasil: "+ input.value * 13472;
+            }
+            else if (kursSelect.value == "rm") {
+                hasil.innerHTML = " Hasil: "+ input.value * 874;
+            }
+            else if (kursSelect.value == "jpy") {
+                hasil.innerHTML = " Hasil: "+ input.value * 120;
+            }
+            else if (kursSelect.value == "uer") {
+                hasil.innerHTML = " Hasil: "+ input.value* 15888;
+            }
+            else if (kursSelect.value == "sar") {
+                hasil.innerHTML = " Hasil: "+ input.value* 3582;
+            }
+        })
+    </script>
+    </div>
+
+</body>
+</html>
